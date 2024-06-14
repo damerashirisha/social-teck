@@ -48,7 +48,7 @@
 }
 
 .cont {
-  margin: 40px !important;
+  margin: 40px 0 !important;
   display: flex !important;
   justify-content: space-evenly;
   margin-top: 50px;
@@ -79,6 +79,9 @@
   background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
   padding: 10px;
   border-radius: 50px;
+}
+.c-form{
+  flex-wrap: wrap !important;
 }
 
 @media (max-width:475px) {
